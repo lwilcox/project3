@@ -16,6 +16,11 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
   3. basic element presenation
 */
 
+/*
+  Setting type with a 4:3 modular scale
+  http://www.modularscale.com/?18&px&1.333
+*/
+
 img {
   display: block;
   max-width: 100%;
