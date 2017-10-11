@@ -64,13 +64,33 @@ p {
 }
 
 footer {
-  
+
 }
 
 img {
   display: block;
   max-width: 100%;
 }
+
+/* Modular Styles */
+/*
+  Repeating style patterns.
+  Hint: these tend to be:
+  1. classes and relationship selectors
+  2. concerned with adjustments to base styles,
+      spacing, color, etc. etc.
+*/
+
+
+/* State Styles */
+/*
+  States of the browser and user access
+  conditions.
+  Hint: these tend to be:
+  1. Driven by media queries
+  2. Influenced by JavaScript
+  3. Organized by Base, Layout, Module, State
+*/
 
 selector {
   property: value;
