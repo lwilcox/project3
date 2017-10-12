@@ -50,8 +50,13 @@ header {
 
 }
 
-nav {
 
+
+li a {
+  display: block;
+  padding: 20px 30px;
+  background-color: #9db8c4;
+  text-decoration: none;
 }
 
 h1 { /*change later*/
@@ -93,8 +98,11 @@ img {
       spacing, color, etc. etc.
 */
 
-#navigation {
-
+#navigation ul {
+  position:fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
 }
 
 #img {
@@ -105,9 +113,8 @@ img {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
-  background-color: #e7fdfb;
   color: black;
-  padding: 1.333em; /* 32 / 24 = 1.333 */
+  padding-top: 4em; /* 32 / 24 = 1.333 */
 }
 
 #header nav ul {
