@@ -36,9 +36,11 @@ main {
 
 h2 {
   padding-bottom: 1em;
+  padding-top: 1em;
   font-weight: bolder;
   font-size: 1.333em; /* 23.994 / 18 = 1.333 */
 }
+
 
 body {
   padding-top: 1.667em; /* 66 / 18 = 3.667 */
@@ -89,6 +91,10 @@ img {
   2. concerned with adjustments to base styles,
       spacing, color, etc. etc.
 */
+#primary li {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
 
 #navigation ul,
 #navigation li {
