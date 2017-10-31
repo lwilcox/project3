@@ -119,6 +119,10 @@ img {
   background-color: gray;
 }
 
+a:visited {
+  color: #red;
+}
+
 #img {
   flex-flow: wrap;
 }
