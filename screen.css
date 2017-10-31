@@ -63,8 +63,6 @@ ul li {
   list-style-type: none;
   list-style-position: inside;
   list-style: none;
-  padding-bottom: 1.555em; /* 28 / 18 = 1.555555 */
-  padding-left: 1em;
   font-size: 1.333em; /* 23.994 / 18 = 1.333 */
 }
 
@@ -95,9 +93,11 @@ img {
 #navigation ul,
 #navigation li {
   display: block;
-  padding-top: 0.2em;
-  padding-bottom: 0.2em;
   background-color: #9db8c4;
+}
+
+#navigation li {
+  width: 33.3333333333%;
 }
 
 #navigation ul {
@@ -108,9 +108,15 @@ img {
 }
 #navigation a {
   text-decoration: none;
+  display: block;
+  width: 100%;
+  padding-top: 0.611em; /* 11 / 18 = 0.6111111 */
+  padding-bottom: 0.611em; /* 11 / 18 = 0.6111111 */
+  text-align: center;
 }
+
 #navigation a:hover {
-  background-color: blue;
+  background-color: gray;
 }
 
 #img {
@@ -119,7 +125,6 @@ img {
 
 #header {
   display: flex;
-  flex-flow: row wrap;
   justify-content: center;
   color: black;
   padding-top: 4em; /* 32 / 24 = 1.333 */
