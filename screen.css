@@ -27,21 +27,6 @@ html {
   line-height: 1.222em; /* 22 / 18 = 1.2222222 */
 }
 
-main {
-  padding-top: 1em;
-  padding-left: 2.5em;
-  padding-right: 2.5em;
-  padding-bottom: 1em;
-}
-
-h2 {
-  padding-bottom: 1em;
-  padding-top: 1em;
-  font-weight: bolder;
-  font-size: 1.333em; /* 23.994 / 18 = 1.333 */
-}
-
-
 body {
   padding-top: 1.667em; /* 66 / 18 = 3.667 */
   padding-right: 1.222em; /* 22 / 18 = 1.2222222 */
@@ -49,16 +34,24 @@ body {
   background-color: #f0f0ec; /* silver */
 }
 
-h1 { /*change later*/
-  font-size: 2.369em; /* 42.635 / 18 = 2.369 */
-  line-height: 1.032em; /* 34 / 42.635 = 0.797 */
-  padding-bottom: 0.688em; /* 22 / 31.984 = 0.688 */
+main {
+  padding-top: 1em;
+  padding-left: 2.5em;
+  padding-right: 2.5em;
+  padding-bottom: 1em;
 }
 
-li,
-ul,
-a {
-  list-style: none;
+h1 { /*change later*/
+  font-size: 2.369em; /* 42.635 / 18 = 2.369 */
+  line-height: 1.032em; /* 44 / 42.635 = 1.032 */
+  padding-bottom: 0.516em; /* 22 / 42.635 = 0.516 */
+}
+
+h2 {
+  padding-bottom: 0.688em; /* 22 / 31.984 = 0.688 */
+  padding-top: 0.688em; /* 22 / 31.984 = 0.688 */
+  font-weight: bolder;
+  font-size: 1.777em; /* 31.994 / 18 = 1.777 */
 }
 
 ul li {
@@ -70,14 +63,14 @@ ul li {
 
 figcaption {
   text-align: center;
-  font-size: 1em;
-  line-height: 1em;
-  padding-top: 3em;
+  font-size: 1em; /* 18 / 18 = 1 */
+  line-height: 1.6293em; /* 22 / 13.503 = 1.6293 */
+  padding-bottom: 0.815em; /* 11 / 13.503 = 0.815 */
+  padding-top: 0.815em; /* 11 / 13.503 = 0.815 */
 }
 
 img {
-  padding-top: 2em;
-  display: flex;
+  padding-top: 0.815em; /* 11 / 13.503 = 0.815 */
   padding-left: 25%;
   max-width: 50%;
   max-height: 50%;
