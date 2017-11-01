@@ -34,14 +34,18 @@ body {
   background-color: #f0f0ec; /* silver */
 }
 
-main {
-  padding-top: 1em;
-  padding-left: 2.5em;
-  padding-right: 2.5em;
-  padding-bottom: 1em;
+header {
+  text-align: center;
 }
 
-h1 { /*change later*/
+main {
+  padding-top: 0.611em; /* 11 / 18 = 0.6111111 */
+  padding-bottom: 0.611em; /* 11 / 18 = 0.6111111 */
+  padding-left: 0.611em; /* 11 / 18 = 0.6111111 */
+  padding-right: 0.611em; /* 11 / 18 = 0.6111111 */
+}
+
+h1 {
   font-size: 2.369em; /* 42.635 / 18 = 2.369 */
   line-height: 1.032em; /* 44 / 42.635 = 1.032 */
   padding-bottom: 0.516em; /* 22 / 42.635 = 0.516 */
@@ -52,6 +56,7 @@ h2 {
   padding-top: 0.688em; /* 22 / 31.984 = 0.688 */
   font-weight: bolder;
   font-size: 1.777em; /* 31.994 / 18 = 1.777 */
+  line-height: 1.032em; /* 33 / 31.984 = 1.032 */
 }
 
 ul li {
@@ -123,11 +128,9 @@ a:visited {
 }
 
 #img {
-  flex-flow: wrap;
 }
 
 #header {
-  display: flex;
   justify-content: center;
   color: black;
   padding-top: 4em; /* 32 / 24 = 1.333 */
