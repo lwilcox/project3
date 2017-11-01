@@ -36,6 +36,8 @@ body {
 
 header {
   text-align: center;
+  padding-top: 3.666em; /* 66 / 18 = 3.666 */
+  color: black;
 }
 
 main {
@@ -43,6 +45,10 @@ main {
   padding-bottom: 0.611em; /* 11 / 18 = 0.6111111 */
   padding-left: 0.611em; /* 11 / 18 = 0.6111111 */
   padding-right: 0.611em; /* 11 / 18 = 0.6111111 */
+}
+
+a {
+  font-size: 0.844em; /* 13.503 / 16 = 0.844 */
 }
 
 h1 {
@@ -76,10 +82,13 @@ figcaption {
 
 img {
   padding-top: 0.815em; /* 11 / 13.503 = 0.815 */
-  padding-left: 25%;
-  max-width: 50%;
-  max-height: 50%;
+  max-width: 75%;
+  max-height: 75%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 
 /* Modular Styles */
 /*
@@ -127,15 +136,6 @@ a:visited {
   color: #red;
 }
 
-#img {
-}
-
-#header {
-  justify-content: center;
-  color: black;
-  padding-top: 4em; /* 32 / 24 = 1.333 */
-}
-
 #header nav ul {
   display: flex;
   flex-flow: row wrap;
@@ -153,9 +153,27 @@ a:visited {
   3. Organized by Base, Layout, Module, State
 */
 
-selector {
-  property: value;
-  property: value value;
-  property: value value value value;
-  property: value value value;
+@media screen and (min-width: 375px) {
+  #navigation a {
+    font-size: 1.125em; /* 18px / 16 = 1.125 */
+  }
+  img {
+    max-height: 80%;
+    max-width: 80%;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  #navigation a {
+    font-size: 1.5em; /* 23.994px / 16 = 1.5 */
+  }
+  img {
+    max-height: 65%;
+    max-width: 65%;
+  }
+}
+
+
+@media screen and (min-width: 750px) {
+
 }
