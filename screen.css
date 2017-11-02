@@ -40,11 +40,6 @@ header {
   color: black;
 }
 
-p {
-  float: left;
-  border:
-}
-
 main {
   padding-top: 0.611em; /* 11 / 18 = 0.6111111 */
   padding-bottom: 0.611em; /* 11 / 18 = 0.6111111 */
@@ -82,8 +77,8 @@ figcaption {
   font-style: italic;
   font-size: 1em; /* 18 / 18 = 1 */
   line-height: 1.6293em; /* 22 / 13.503 = 1.6293 */
-  padding-bottom: 0.815em; /* 11 / 13.503 = 0.815 */
-  padding-top: 0.815em; /* 11 / 13.503 = 0.815 */
+  padding-bottom: 0.688em; /* 22 / 31.984 = 0.688 */
+  padding-top: 0.688em; /* 22 / 31.984 = 0.688 */
 }
 
 img {
@@ -126,17 +121,6 @@ footer {
   background-color: #9db8c4;
 }
 
-#navigation li {
-  width: 33.3333333333%;
-}
-
-#navigation ul {
-  position: absolute;
-  width: 100%;
-  top: 0;
-  left: 0;
-}
-
 a:visited {
   color: #9370DB;
 }
@@ -144,7 +128,6 @@ a:visited {
 #navigation a {
   text-decoration: none;
   display: block;
-  width: 100%;
   padding-top: 0.611em; /* 11 / 18 = 0.6111111 */
   padding-bottom: 0.611em; /* 11 / 18 = 0.6111111 */
   text-align: center;
@@ -154,10 +137,16 @@ a:visited {
   background-color: gray;
 }
 
-#header nav ul {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
+#navigation {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+#navigation li {
+  float: left;
+  width: 33.33333333%;
 }
 
 
@@ -172,18 +161,18 @@ a:visited {
 */
 
 @media screen and (min-width: 375px) {
-  img {
+  img {   /*resizes images a bit so they are easier to look at*/
     max-height: 80%;
     max-width: 80%;
   }
 }
 
 @media screen and (min-width: 480px) {
-  #navigation a {
+  #navigation a {  /*resizes text so that the nav bar text corresponds to screen size*/
     font-size: 1.125em; /* 18px / 16 = 1.125 */
   }
 
-  img {
+  img {   /*resizes images a bit so they are easier to look at*/
     max-height: 65%;
     max-width: 65%;
   }
@@ -191,11 +180,11 @@ a:visited {
 
 
 @media screen and (min-width: 750px) {
-  #navigation a {
+  #navigation a {  /*resizes text so that the nav bar text corresponds to screen size*/
     font-size: 1.5em; /* 23.994px / 16 = 1.5 */
   }
 
-  img {
+  img {   /*resizes images a bit so they are easier to look at*/
     max-height: 50%;
     max-width: 50%;
   }
