@@ -23,12 +23,12 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 html {
   font-size: 1.125em; /* 18 / 16 = 1.125 */
-  font-family: Georgia, serif;
+  font-family: Georgia, sans-serif, helvetica, verdana;
   line-height: 1.222em; /* 22 / 18 = 1.2222222 */
 }
 
 body {
-  padding-top: 1.667em; /* 66 / 18 = 3.667 */
+  padding-top: 1.667em; /* 66 / 18 = 3.667 FIX THIS LATER */
   padding-right: 1.222em; /* 22 / 18 = 1.2222222 */
   padding-left: 1.222em; /* 22 / 18 = 1.2222222 */
   background-color: #f0f0ec; /* silver */
@@ -38,6 +38,11 @@ header {
   text-align: center;
   padding-top: 3.666em; /* 66 / 18 = 3.666 */
   color: black;
+}
+
+p {
+  float: left;
+  border:
 }
 
 main {
@@ -74,6 +79,7 @@ ul li {
 
 figcaption {
   text-align: center;
+  font-style: italic;
   font-size: 1em; /* 18 / 18 = 1 */
   line-height: 1.6293em; /* 22 / 13.503 = 1.6293 */
   padding-bottom: 0.815em; /* 11 / 13.503 = 0.815 */
@@ -87,6 +93,16 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+footer {
+  background-color: #9db8c4;
+  width: 100%;
+  text-align: center;
+  left: 0;
+  position: absolute;
+  padding-top: 0.611em; /* 11 / 18 = 0.6111111 */
+  padding-bottom: 0.611em; /* 11 / 18 = 0.6111111 */
 }
 
 
