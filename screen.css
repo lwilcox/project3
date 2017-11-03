@@ -161,7 +161,7 @@ a:visited {
 */
 
 @media screen and (min-width: 375px) {
-  img {   /*resizes images a bit so they are easier to look at*/
+  img {   /*resizes images a bit so they are responsive and easier to look at*/
     max-height: 80%;
     max-width: 80%;
   }
@@ -172,7 +172,7 @@ a:visited {
     font-size: 1.125em; /* 18px / 16 = 1.125 */
   }
 
-  img {   /*resizes images a bit so they are easier to look at*/
+  img {   /*resizes images a bit so they are responsive and easier to look at*/
     max-height: 65%;
     max-width: 65%;
   }
@@ -184,7 +184,7 @@ a:visited {
     font-size: 1.5em; /* 23.994px / 16 = 1.5 */
   }
 
-  img {   /*resizes images a bit so they are easier to look at*/
+  img {   /*resizes images a bit so they are responsive and easier to look at*/
     max-height: 50%;
     max-width: 50%;
   }
