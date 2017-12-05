@@ -81,6 +81,11 @@ figcaption {
   padding-top: 0.688em; /* 22 / 31.984 = 0.688 */
 }
 
+iframe {
+  display: block;
+  margin: 0 auto;
+}
+
 img {
   padding-top: 0.815em; /* 11 / 13.503 = 0.815 */
   max-width: 75%;
@@ -149,6 +154,10 @@ a:visited {
   width: 33.33333333%;
 }
 
+#iframe {
+  display: block;
+  text-align: center;
+}
 
 /* State Styles */
 /*
