@@ -93,6 +93,8 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  height: 50%;
+  width: 50%;
 }
 
 footer {
@@ -179,6 +181,11 @@ a:visited {
   text-align: center;
 }
 
+#instagram {
+  width: 4.209em;
+  height: 4.209em;
+}
+
 /* State Styles */
 /*
   States of the browser and user access
@@ -239,7 +246,7 @@ a:visited {
 
 @media screen and (min-width: 1000px) {
   #slideshow {
-      margin: 1.667em auto;
+      margin-top: 1.667em auto;
       position: relative;
       width: 50em;
       height: 50em;
@@ -249,8 +256,5 @@ a:visited {
     }
 }
 
-  img {   /*resizes images a bit so they are responsive and easier to look at*/
-    height: 50%;
-    width: 50%;
-  }
+
 }
