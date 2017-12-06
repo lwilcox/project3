@@ -143,10 +143,10 @@ a:visited {
 }
 
 #slideshow {
-    margin: 100px auto;
+    margin: 1.333em auto;
     position: relative;
-    width: 350px;
-    height: 350px;
+    width: 17.713em;
+    height: 17.713em;
     align-items: center;
     display: flex;
     flex-flow: row;
@@ -189,23 +189,33 @@ a:visited {
   3. Organized by Base, Layout, Module, State
 */
 
-@media screen and (min-width: 375px) {
-  img {   /*resizes images a bit so they are responsive and easier to look at*/
-    max-height: 80%;
-    max-width: 80%;
-  }
+@media screen and (min-width: 480px) {
+  #slideshow {
+      margin: 1.333em auto;
+      position: relative;
+      width: 23.612em;
+      height: 23.612em;
+      align-items: center;
+      display: flex;
+      flex-flow: row;
+    }
 
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 620px) {
   #navigation a {  /*resizes text so that the nav bar text corresponds to screen size*/
     font-size: 1.125em; /* 18px / 16 = 1.125 */
   }
 
-  img {   /*resizes images a bit so they are responsive and easier to look at*/
-    max-height: 65%;
-    max-width: 65%;
-  }
+  #slideshow {
+      margin: 1.333em auto;
+      position: relative;
+      width: 31.475em;
+      height: 31.475em;
+      align-items: center;
+      display: flex;
+      flex-flow: row;
+    }
 }
 
 
@@ -217,10 +227,10 @@ a:visited {
     }
 
     #slideshow {
-        margin: 20px auto;
+        margin: 1.333em auto;
         position: relative;
-        width: 750px;
-        height: 750px;
+        width: 40em;
+        height: 40em;
         align-items: center;
         display: flex;
         flex-flow: row;
@@ -229,10 +239,10 @@ a:visited {
 
 @media screen and (min-width: 1000px) {
   #slideshow {
-      margin: 50px auto;
+      margin: 1.667em auto;
       position: relative;
-      width: 900px;
-      height: 900px;
+      width: 50em;
+      height: 50em;
       align-items: center;
       display: flex;
       flex-flow: row;
@@ -240,7 +250,7 @@ a:visited {
 }
 
   img {   /*resizes images a bit so they are responsive and easier to look at*/
-    max-height: 50%;
-    max-width: 50%;
+    height: 50%;
+    width: 50%;
   }
 }
