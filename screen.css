@@ -84,6 +84,10 @@ figcaption {
 iframe {
   display: block;
   margin: 0 auto;
+  display: block;
+  text-align: center;
+  width: 13.288em;
+  height: 7.478em;
 }
 
 img {
@@ -93,8 +97,8 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  height: 50%;
-  width: 50%;
+  height: 60%;
+  width: 60%;
 }
 
 footer {
@@ -145,13 +149,13 @@ a:visited {
 }
 
 #slideshow {
-    margin: 1.333em auto;
+    margin: 1.667em auto;
     position: relative;
     width: 17.713em;
     height: 17.713em;
     align-items: center;
     display: flex;
-    flex-flow: row;
+    flex-flow: column;
   /*  padding: 10px;
     /*box-shadow: 0 0 20px rgba(0,0,0,0.4);*/
 }
@@ -176,9 +180,13 @@ a:visited {
   width: 33.33333333%;
 }
 
-#iframe {
-  display: block;
+#contact {
+  padding-top: 1.376em;
+}
+
+#contact2 {
   text-align: center;
+  float: left;
 }
 
 #instagram {
@@ -195,6 +203,16 @@ a:visited {
   2. Influenced by JavaScript
   3. Organized by Base, Layout, Module, State
 */
+@media screen and (min-width: 480px) {
+  iframe {
+    display: block;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    width: 17.713em;
+    height: 9.969em;
+  }
+}
 
 @media screen and (min-width: 480px) {
   #slideshow {
@@ -204,9 +222,8 @@ a:visited {
       height: 23.612em;
       align-items: center;
       display: flex;
-      flex-flow: row;
+      flex-flow: column;
     }
-
 }
 
 @media screen and (min-width: 620px) {
@@ -221,8 +238,18 @@ a:visited {
       height: 31.475em;
       align-items: center;
       display: flex;
-      flex-flow: row;
+      flex-flow: column;
     }
+
+    iframe {
+      display: block;
+      margin: 0 auto;
+      display: block;
+      text-align: center;
+      width: 31.475em;
+      height: 17.713em;
+    }
+
 }
 
 
@@ -240,19 +267,45 @@ a:visited {
         height: 40em;
         align-items: center;
         display: flex;
-        flex-flow: row;
+        flex-flow: column;
       }
   }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1156px) {
   #slideshow {
       margin-top: 1.667em auto;
       position: relative;
-      width: 50em;
-      height: 50em;
+      width: 35em;
+      height: 35em;
       align-items: center;
       display: flex;
-      flex-flow: row;
+      flex-flow: column;
+    }
+
+    .wrapper {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .one {
+      width: 500px;
+
+    }
+
+    .two {
+
+    }
+}
+
+@media screen and (min-width: 1250px) {
+  #slideshow {
+      /*margin-top: 1.667em auto;
+      position: relative;
+      width: 50em;
+      height: 50em;
+      align-items: center;*/
+      display: flex;
+      flex-flow: column;
     }
 }
 
