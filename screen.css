@@ -150,6 +150,7 @@ a:visited {
   padding-top: 0.611em; /* 11 / 18 = 0.6111111 */
   padding-bottom: 0.611em; /* 11 / 18 = 0.6111111 */
   text-align: center;
+  color: #bfc0c0;
 }
 
 #navigation a:hover {
