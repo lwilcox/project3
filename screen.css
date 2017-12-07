@@ -31,7 +31,7 @@ body {
   padding-top: 1.667em; /* 66 / 18 = 3.667 FIX THIS LATER */
   padding-right: 1.222em; /* 22 / 18 = 1.2222222 */
   padding-left: 1.222em; /* 22 / 18 = 1.2222222 */
-  background-color: #f0f0ec; /* silver */
+  background-color: #f4f4f8; /* silver */
 }
 
 header {
@@ -102,7 +102,7 @@ img {
 }
 
 footer {
-  background-color: #9db8c4;
+  background-color: #4F5D75;
   width: 100%;
   text-align: center;
   left: 0;
@@ -129,11 +129,19 @@ footer {
 #navigation ul,
 #navigation li {
   display: block;
-  background-color: #9db8c4;
+  background-color: #2d3142;
 }
 
 a:visited {
-  color: #9370DB;
+  color: #bfc0c0;
+}
+
+#interests-link:visited {
+  color: blue;
+}
+
+#contact2:visited {
+  color: blue;
 }
 
 #navigation a {
@@ -145,7 +153,7 @@ a:visited {
 }
 
 #navigation a:hover {
-  background-color: gray;
+  background-color: #4f5d75;
 }
 
 #slideshow {
