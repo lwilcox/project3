@@ -90,6 +90,16 @@ iframe {
   height: 7.478em;
 }
 
+h3 {
+  padding-top: 0.688em;
+  padding-bottom: 0.688em;
+}
+
+textarea {
+  width: 13.288em;
+  height: 1.6293em;
+}
+
 img {
   padding-top: 0.815em; /* 11 / 13.503 = 0.815 */
 /*  max-width: 75%;
@@ -201,6 +211,10 @@ a:visited {
 #instagram {
   width: 4.209em;
   height: 4.209em;
+}
+
+#submitted-comment {
+
 }
 
 /* State Styles */

@@ -36,7 +36,7 @@
     </article>
     <section class="two">
       <figure id="my-video">
-        <figcaption id="iceland-fig">Here is an unreleased video I filmed and edited from my recent trip to iceland. Enjoy!</figcaption>
+        <figcaption id="iceland-fig">Here is an unreleased video I filmed and edited from my recent trip to Iceland. Enjoy!</figcaption>
         <iframe id ="iceland-video"
         src="https://www.youtube.com/embed/MlkYz-etzXk?rel=0&amp;showinfo=0"
         frameborder="0" gesture="media" allow="encrypted-media"
@@ -49,10 +49,27 @@
         </a>
       </figure>
     </section>
+    <article id="form">
+      <h3>Like my work? Leave a comment!</h3>
+      <form action="#null" method="get" id="comment-form">
+            <ul>
+              <li>
+                <textarea name="comments" id="submitted-comment"></textarea>
+              </li>
+              <li>
+                <input type="submit" name="submit" value="submit" id="submit"/>
+              </li>
+              <li>
+                <h4 id="submitted"></h4>
+              </li>
+            </ul>
+        </form>
+      </article>
   </main>
   <aside id="supporting">
   </aside>
   <footer id="footer">Copyright &#xA9; 2017 by Logan Wilcox</footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="../js/site.js"></script>
 </body>
 </html>
