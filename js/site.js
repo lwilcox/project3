@@ -6,18 +6,18 @@
 
 (function($){
 
-$("#slideshow > figure:gt(0)").hide();
+  $("#slideshow > figure:gt(0)").hide();
 
-setInterval(function() {
-  $('#slideshow > figure:first')
-    .fadeOut(1000)
-    .next()
-    .fadeIn(1000)
-    .end()
-    .appendTo('#slideshow');
-},  3000);
+  setInterval(function() {
+    $('#slideshow > figure:first')
+      .fadeOut(1000)
+      .next()
+      .fadeIn(1000)
+      .end()
+      .appendTo('#slideshow');
+  }, 3000);
 
-$('#comment-form').on('submit', function(e){
+  $('#comment-form').on('submit', function(e){
     var comment = $('#submitted-comment').val();
     var submitted = document.getElementById("submitted");
     var complete = "Thanks for your feedback! You're awesome.";
@@ -36,8 +36,6 @@ $('#comment-form').on('submit', function(e){
         $("#submitted").fadeOut(1000).empty();
       }, 5000);
     }
-});
-
-
+  });
 
 })(jQuery);

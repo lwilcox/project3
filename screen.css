@@ -84,7 +84,6 @@ figcaption {
 iframe {
   display: block;
   margin: 0 auto;
-  display: block;
   text-align: center;
   width: 13.288em;
   height: 7.478em;
@@ -102,8 +101,6 @@ textarea {
 
 img {
   padding-top: 0.815em; /* 11 / 13.503 = 0.815 */
-/*  max-width: 75%;
-  max-height: 75%; */
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -150,10 +147,6 @@ a:visited {
   color: blue;
 }
 
-#contact2:visited {
-  color: blue;
-}
-
 #navigation a {
   text-decoration: none;
   display: block;
@@ -168,23 +161,17 @@ a:visited {
 }
 
 #slideshow {
-    margin: 1.667em auto;
-    position: relative;
-    width: 17.713em;
-    height: 17.713em;
-    align-items: center;
-    display: flex;
-    flex-flow: column;
-  /*  padding: 10px;
-    /*box-shadow: 0 0 20px rgba(0,0,0,0.4);*/
+  margin: 1.667em auto;
+  position: relative;
+  width: 17.713em;
+  height: 17.713em;
+  align-items: center;
+  display: flex;
+  flex-flow: column;
 }
 
 #slideshow > figure {
-    position: absolute;
-    /*top: 10px;
-    left: 10px;
-    right: 10px;
-    bottom: 10px;*/
+  position: absolute;
 }
 
 #navigation {
@@ -208,13 +195,22 @@ a:visited {
   float: left;
 }
 
+#contact2:visited {
+  color: blue;
+}
+
+#video {
+  text-align: center;
+}
+
+#photos {
+  text-align: center;
+  visibility: hidden;
+}
+
 #instagram {
   width: 4.209em;
   height: 4.209em;
-}
-
-#submitted-comment {
-
 }
 
 /* State Styles */
@@ -230,7 +226,6 @@ a:visited {
   iframe {
     display: block;
     margin: 0 auto;
-    display: block;
     text-align: center;
     width: 17.713em;
     height: 9.969em;
@@ -239,14 +234,14 @@ a:visited {
 
 @media screen and (min-width: 480px) {
   #slideshow {
-      margin: 1.333em auto;
-      position: relative;
-      width: 23.612em;
-      height: 23.612em;
-      align-items: center;
-      display: flex;
-      flex-flow: column;
-    }
+    margin: 1.333em auto;
+    position: relative;
+    width: 23.612em;
+    height: 23.612em;
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+  }
 }
 
 @media screen and (min-width: 620px) {
@@ -255,23 +250,22 @@ a:visited {
   }
 
   #slideshow {
-      margin: 1.333em auto;
-      position: relative;
-      width: 31.475em;
-      height: 31.475em;
-      align-items: center;
-      display: flex;
-      flex-flow: column;
-    }
+    margin: 1.333em auto;
+    position: relative;
+    width: 31.475em;
+    height: 31.475em;
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+  }
 
-    iframe {
-      display: block;
-      margin: 0 auto;
-      display: block;
-      text-align: center;
-      width: 31.475em;
-      height: 17.713em;
-    }
+  iframe {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 31.475em;
+    height: 17.713em;
+  }
 
 }
 
@@ -279,58 +273,49 @@ a:visited {
 @media screen and (min-width: 750px) {
   #navigation a {  /*resizes text so that the nav bar text corresponds to screen size*/
     font-size: 1.5em; /* 23.994px / 16 = 1.5 */
-      /*  padding: 10px;
-        /*box-shadow: 0 0 20px rgba(0,0,0,0.4);*/
-    }
-
-    #slideshow {
-        margin: 1.333em auto;
-        position: relative;
-        width: 40em;
-        height: 40em;
-        align-items: center;
-        display: flex;
-        flex-flow: column;
-      }
   }
+
+  #slideshow {
+    margin: 1.333em auto;
+    position: relative;
+    width: 40em;
+    height: 40em;
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+  }
+}
 
 @media screen and (min-width: 1156px) {
   #slideshow {
-      margin-top: 1.667em auto;
-      position: relative;
-      width: 35em;
-      height: 35em;
-      align-items: center;
-      display: flex;
-      flex-flow: column;
-    }
+    margin-top: auto;
+    position: relative;
+    width: 35em;
+    height: 35em;
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+  }
 
-    .wrapper {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-    }
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 
-    .one {
-      width: 500px;
+  .one {
+    width: 27.778em;
+  }
 
-    }
-
-    .two {
-
-    }
 }
 
 @media screen and (min-width: 1250px) {
   #slideshow {
-      /*margin-top: 1.667em auto;
-      position: relative;
-      width: 50em;
-      height: 50em;
-      align-items: center;*/
-      display: flex;
-      flex-flow: column;
-    }
-}
-
-
+    /*margin-top: 1.667em auto;
+    position: relative;
+    width: 50em;
+    height: 50em;
+    align-items: center;*/
+    display: flex;
+    flex-flow: column;
+  }
 }
